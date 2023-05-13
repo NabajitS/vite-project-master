@@ -1,0 +1,100 @@
+.home {
+    padding: 5px;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding-left: 15px;
+    /* height: 100vh; */
+}
+
+.container {
+    /* background-color: #888; */
+    height: 85%;
+}
+
+.user-table {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    height: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 5px 4px 0 4px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e1e1e1;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer button {
+    margin: 0 5px;
+}
+
+.shortlisted {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+}
+
+.shortlisted h2 {
+    margin-bottom: 10px;
+}
+
+.shortlisted ul {
+    list-style: none;
+    padding: 0;
+}
+
+.shortlisted li {
+    margin-bottom: 5px;
+}
+
+.shortlisted span {
+    font-weight: bold;
+}
+
+.shortlisted .empty-message {
+    color: #888;
+    font-style: italic;
+}
+
+.footer {
+    background-color: #040e32;
+    /* position: fixed; */
+    /* bottom: 10px; */
+    /* width: 100%; */
+    padding: 20px 0;
+    height: 15%;
+}
+
+.footer input {
+    margin: 0 10px 0 10px;
+    padding: 6px 2px;
+}
+
+.footer button {
+    margin-left: 10px;
+}
